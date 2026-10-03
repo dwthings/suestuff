@@ -1,40 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Centered H1</title>
-    <style>
-        /* Import a custom font from Google Fonts */
-        @import url('https://googleapis.com');
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-	    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	    <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
-        /* Make the body fill the entire screen and use Flexbox */
-        html, body {
-            height: 100%;
-            margin: 0;
-        }
-
-        body {
-            display: flex;
-            justify-content: center; /* Centers horizontally */
-            align-items: center;     /* Centers vertically */
-            background-color: #5c0048; /* Optional page background */
-        }
-
-        /* Style the H1 element */
-        h1 {
-            color: white;
-            background-color: #5c0048; /* Colored background */
-            font-family: 'Tangerine', sans-serif; /* Custom font */
-            font-size: 3rem;
-            padding: 20px 40px;
-            border-radius: 8px;
-            margin: 0;
-        }
-    </style>
+<style>
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
+  .center-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5c0048; /* Change to your preferred color */
+  }
+  h1 {
+    color: white;
+    margin: 0;
+  }
+</style>
 </head>
 <body>
-    <h1>Hi</h1>
+
+<div class="center-container">
+  <h1>Hi</h1>
+</div>
+
 </body>
+</html>
 </html
